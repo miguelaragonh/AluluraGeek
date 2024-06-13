@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link rel="shortcut icon" href="../assets/svg/favicon.ico" type="image/x-icon">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <!-- Styles -->
+    <link rel="stylesheet" href="../assets/styles/base/root.css">
+    <link rel="stylesheet" href="../assets/styles/base/header.css">
+    <link rel="stylesheet" href="../assets/styles/base/dark-mode.css">
+    <link rel="stylesheet" href="../assets/styles/base/footer.css">
+    <link rel="stylesheet" href="../assets/styles/productos-all/all-products.css">
+    <link rel="stylesheet" href="../assets/styles/busqueda/busqueda.css">
+    
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo-busqueda">
+                <div class="logo">
+                    <a href="../index.html" class="header__logo__link">
+                        <img src="../assets/svg/Logo_alura_geek.svg" alt="logo Alura Geek" class="header__logo">
+                    </a>
+                </div>
+                <div class="header__search hide">
+                    <input type="text" class="search__input" placeholder="¿Qué deseas Buscar?">
+                    <a href="#" class="icon__search"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="productos__flia all-products" >
+            <div class="productos__barra">
+                <div class="productos__titulo">
+                    <h2 class="productos__titulo">Resultados</h2>
+                </div>
+                <a href="../screens/productos.html" class="productos__verMas">
+                    <h4>Ver más</h4>
+                    <span class="productos__iconoFlecha"></span>
+                </a>
+            </div>
+            <div class="productos__tarjetas" data-section>
+                
+                <!-- Aqui se inyecta el resultado por DOM -->
+            </div>
+        </div>
+
+    </main>
+
+    <script type="module" src="../services/modules.js"></script>
+    <script type="module" src="../assets/controllers/search.js"></script>
+    <script type="module" src="../assets/controllers/search.resultado.controller.js"></script>
+    
+    </body>

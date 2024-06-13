@@ -1,0 +1,19 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Alura geek e-commerce project for Oracle/Alura latam program",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "CRUD",
+    "alura",
+    "latam"
+  ],
+
+  "dependencies": {
+    "bootstrap-icons": "^1.10.5"
+  }
+}
